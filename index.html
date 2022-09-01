@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .body{
+            text-align:center;
+        }
+        .nav-bar-hidden{
+            position: fixed;
+            top: -10px;
+            left: 0;
+            z-index: 99;
+            width: 100%;
+
+            transition: margin-top .3s linear;
+        }
+        .abc{
+            position: fixed;
+            top: 88%;
+            left: 1313px;
+
+            z-index: 99;
+            width: 100%;
+
+        }
+
+    </style>
+</head>
+<body style="overflow-x: hidden;" oncontextmenu=self.event.returnValue=false>
+<div style="width: 1353px;height:1500px;margin: 0 auto;">
+
+    <div class="nav-bar-hidden">
+        <img src="Local/j1.png" style="position: absolute;">
+        <div contenteditable style="font-size:17px;display: inline-block; position: absolute;margin-left: 475px;margin-top: 32px;">首页</div>
+        <div contenteditable style="font-size:17px;display: inline-block; position: absolute;margin-left: 535px;margin-top: 32px;">我的账户</div>
+        <div contenteditable style="font-size:17px;display: inline-block; color: rgb(0,102,179); position: absolute;margin-left: 632px;margin-top: 32px;">转账汇款</div>
+        <div contenteditable style="font-size:17px;display: inline-block; position: absolute;margin-left: 729px;margin-top: 32px;">投资理财</div>
+        <div contenteditable style="font-size:17px;display: inline-block; position: absolute;margin-left: 826px;margin-top: 32px;">资产管理</div>
+        <div contenteditable style="font-size:17px;display: inline-block; position: absolute;margin-left: 923px;margin-top: 32px;">信用卡</div>
+        <div contenteditable style="font-size:17px;display: inline-block; position: absolute;margin-left: 1001px;margin-top: 32px;">个人贷款</div>
+        <div contenteditable style="font-size:17px;display: inline-block; position: absolute;margin-left: 1098px;margin-top: 32px;">生活服务</div>
+    </div>
+
+    <div class="abc">
+        <img src="Local/j9.png" style="position: absolute;">
+    </div>
+
+
+
+
+
+    <img src="Local/j2.png" style="position: absolute;">
+    <img src="Local/j3.png" style="margin-top: 48px;position: absolute;">
+    <img src="Local/j4.png" style="margin-top: 124px;position: absolute;">
+    <img src="Local/j5.png" style="margin-top: 309px;position: absolute;">
+    <img src="Local/j15.png" style="margin-top: 745px;position: absolute;">
+    <img src="Local/j7.png" style="margin-top: 1298px;position: absolute;">
+    <img src="Local/j8.png" style="position: fixed; left: 1313px;top: 112px;">
+
+
+
+
+
+
+    <input style="font-size:16px;position: absolute;margin-top: 14px;margin-left: 197px;color: rgb(255,255,255);background-color: transparent;border: none;width: 70px; " value="个人客户">
+    <input style="font-size:15px;position: absolute;margin-top: 14px;margin-left: 298px;color: rgb(29,217,226);background-color: transparent;border: none;width: 60px; " value="善融服务">
+
+
+    <input style="position: absolute;margin-top: 18px;margin-left: 819px;color: rgb(29,217,226);background-color: transparent;border: none;width: 35px; " value="设置">
+    <input style="position: absolute;margin-top: 18px;margin-left: 870px;color: rgb(29,217,226);background-color: transparent;border: none;width: 60px; " value="意见反馈">
+    <input style="position: absolute;margin-top: 18px;margin-left: 949px;color: rgb(29,217,226);background-color: transparent;border: none;width: 60px; " value="常见问题">
+    <input style="position: absolute;margin-top: 18px;margin-left: 1027px;color: rgb(29,217,226);background-color: transparent;border: none;width: 60px; " value="在线客服">
+    <input style="position: absolute;margin-top: 18px;margin-left: 1106px;color: rgb(29,217,226);background-color: transparent;border: none;width: 60px; " value="退出网银">
+
+
+
+
+    <input style="font-size:17px;position: absolute;margin-top: 81px;margin-left: 474px;background-color: transparent;border: none;width: 40px;" value="首页">
+    <input style="font-size:17px;position: absolute;margin-top: 81px;margin-left: 534px;background-color: transparent;border: none;width: 75px;" value="我的账户">
+    <input style="font-size:17px;position: absolute;margin-top: 81px;margin-left: 631px;color:rgb(0,102,179);background-color: transparent;border: none;width: 75px;" value="转账汇款">
+    <input style="font-size:17px;position: absolute;margin-top: 81px;margin-left: 728px;background-color: transparent;border: none;width: 75px;" value="投资理财">
+    <input style="font-size:17px;position: absolute;margin-top: 81px;margin-left: 825px;background-color: transparent;border: none;width: 75px;" value="资产管理">
+    <input style="font-size:17px;position: absolute;margin-top: 81px;margin-left: 922px;background-color: transparent;border: none;width: 65px;" value="信用卡">
+    <input style="font-size:17px;position: absolute;margin-top: 81px;margin-left: 1000px;background-color: transparent;border: none;width: 75px;" value="个人贷款">
+    <input style="font-size:17px;position: absolute;margin-top: 81px;margin-left: 1097px;background-color: transparent;border: none;width: 75px;" value="生活服务">
+
+
+
+
+
+    <input style="font-size:15px;font-weight:600;position: absolute;margin-top: 158px;margin-left: 206px;color: rgb(255,255,255);background-color: transparent;border: none;width: 75px; " value="常用交易">
+
+    <input style="font-size:15px;font-weight:600;position: absolute;margin-top: 158px;margin-left: 449px;color: rgb(255,255,255);background-color: transparent;border: none;width: 75px; " value="常用功能">
+
+
+
+    <input style="position: absolute;margin-top: 160px;margin-left: 369px;color: rgb(255,255,255);background-color: transparent;border: none;width: 40px; " value="更多">
+    <input style="position: absolute;margin-top: 160px;margin-left: 1097px;color: rgb(255,255,255);background-color: transparent;border: none;width: 40px; " value="定制">
+
+
+
+    <input style="position: absolute;margin-top: 197px;margin-left: 206px;color: rgb(255,255,255);background-color: transparent;border: none;width: 80px; " value="[建行转建行]">
+    <input style="position: absolute;margin-top: 197px;margin-left: 339px;color: rgb(255,255,255);background-color: transparent;border: none;width: 80px; " value="活期转账">
+
+
+    <input style="position: absolute;margin-top: 225px;margin-left: 206px;color: rgb(255,255,255);background-color: transparent;border: none;width: 80px; " value="[话费充值]">
+    <input style="position: absolute;margin-top: 225px;margin-left: 311px;color: rgb(255,255,255);background-color: transparent;border: none;width: 90px; " value="本人手机充值">
+
+
+    <input style="position: absolute;margin-top: 258px;margin-left: 454px;color: rgb(255,255,255);background-color: transparent;border: none;width: 60px; " value="账户查询">
+    <input style="position: absolute;margin-top: 258px;margin-left: 574px;color: rgb(255,255,255);background-color: transparent;border: none;width: 60px; " value="建行转账">
+    <input style="position: absolute;margin-top: 258px;margin-left: 708px;color: rgb(255,255,255);background-color: transparent;border: none;width: 35px; " value="基金">
+    <input style="position: absolute;margin-top: 258px;margin-left: 808px;color: rgb(255,255,255);background-color: transparent;border: none;width: 70px; " value="账户贵金属">
+    <input style="position: absolute;margin-top: 258px;margin-left: 935px;color: rgb(255,255,255);background-color: transparent;border: none;width: 60px; " value="理财产品">
+    <input style="position: absolute;margin-top: 258px;margin-left: 1055px;color: rgb(255,255,255);background-color: transparent;border: none;width: 60px; " value="生活服务">
+
+
+    <input style="position: absolute;margin-top: 348px;margin-left: 214px;color: rgb(153,153,153);background-color: transparent;border: none;width: 60px; " value="转账汇款">
+    <input style="position: absolute;margin-top: 348px;margin-left: 286px;color: rgb(153,153,153);background-color: transparent;border: none;width: 60px; " value="活期转账">
+    <input style="position: absolute;margin-top: 348px;margin-left: 358px;color: rgb(153,153,153);background-color: transparent;border: none;width: 70px; " value="向企业转账">
+
+
+
+    <input style="font-size: 17px; position: absolute;margin-top: 395px;margin-left: 212px;color: rgb(0,0,0);background-color: transparent;border: none;width: 120px; " value="向企业转账">
+
+
+    <input style="position: absolute;margin-top: 452px;margin-left: 239px;color: rgb(153,153,153);background-color: transparent;border: none;width: 90px; " value="填写转账信息">
+    <input style="position: absolute;margin-top: 452px;margin-left: 399px;color: rgb(153,153,153);background-color: transparent;border: none;width: 90px; " value="确认转账信息">
+    <input style="font-size: 15px; position: absolute;margin-top: 450px;margin-left: 569px;color: rgb(0,102,179);background-color: transparent;border: none;width: 90px; " value="转账成功">
+
+
+
+
+    <input style="font-weight:600;position: absolute;margin-top: 561px;margin-left: 331px;color: rgb(0,0,0);background-color: transparent;border: none;width: 70px; " value="尊进的客户：">
+    <input style="font-weight:600;position: absolute;margin-top: 587px;margin-left: 331px;color: rgb(0,0,0);background-color: transparent;border: none;width: 200px; " value="转账交易成功！">
+
+
+
+    <input style="position: absolute;margin-top: 659px;margin-left: 203px;color: rgb(0,0,0);background-color: transparent;border: none;width: 70px; " value="猜您想去">
+
+
+
+    <input style="position: absolute;margin-top: 754px;margin-left: 249px;color: rgb(0,102,179);background-color: transparent;border: none;width: 70px; " value="继续转账">
+    <input style="position: absolute;margin-top: 754px;margin-left: 401px;color: rgb(0,102,179);background-color: transparent;border: none;width: 70px; " value="账户查询">
+    <input style="position: absolute;margin-top: 754px;margin-left: 522px;color: rgb(0,102,179);background-color: transparent;border: none;width: 120px; " value="查询/打印转账回单">
+
+
+    <input style="position: absolute;margin-top: 801px;margin-left: 202px;color: rgb(0,0,0);background-color: transparent;border: none;width: 200px; " value="以下是您的交易信息">
+
+
+    <input style="font-weight:600;position: absolute;margin-top: 838px;margin-left: 212px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="付款账户名称">
+    <input style="position: absolute;margin-top: 838px;margin-left: 393px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="李四">
+    <input style="font-weight:600;position: absolute;margin-top: 838px;margin-left: 681px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="收款人姓名">
+    <input style="position: absolute;margin-top: 838px;margin-left: 851px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="张三">
+
+
+
+
+    <input style="font-weight:600;position: absolute;margin-top: 879px;margin-left: 212px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="付款账户">
+    <input style="position: absolute;margin-top: 879px;margin-left: 393px;color: rgb(0,0,0);background-color: transparent;border: none;width: 200px; " value="6228487885898586586">
+    <input style="font-weight:600;position: absolute;margin-top: 879px;margin-left: 681px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="收款人账号">
+    <input style="position: absolute;margin-top: 879px;margin-left: 851px;color: rgb(0,0,0);background-color: transparent;border: none;width: 200px; " value="6223585665854585475">
+
+
+
+
+    <input style="font-weight:600;position: absolute;margin-top: 920px;margin-left: 212px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="收款账户所在分行">
+    <input style="position: absolute;margin-top: 920px;margin-left: 393px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="北京分行">
+    <input style="font-weight:600;position: absolute;margin-top: 920px;margin-left: 681px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="币种">
+    <input style="position: absolute;margin-top: 920px;margin-left: 851px;color: rgb(0,0,0);background-color: transparent;border: none;width: 200px; " value="人民币">
+
+
+
+
+    <input style="font-weight:600;position: absolute;margin-top: 961px;margin-left: 212px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="转账金额">
+    <input style="font-weight:600;position: absolute;margin-top: 961px;margin-left: 393px;color: rgb(255,0,0);background-color: transparent;border: none;width: 150px; " value="50,000">
+    <input style="font-weight:600;position: absolute;margin-top: 961px;margin-left: 681px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="手续费">
+    <input style="font-weight:600;position: absolute;margin-top: 961px;margin-left: 851px;color: rgb(255,0,0);background-color: transparent;border: none;width: 200px; " value="50">
+
+
+
+
+    <input style="font-weight:600;position: absolute;margin-top: 1002px;margin-left: 212px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="短信通知">
+    <input style="position: absolute;margin-top: 1002px;margin-left: 393px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="133155256589">
+    <input style="font-weight:600;position: absolute;margin-top: 1002px;margin-left: 681px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="附言">
+    <input style="position: absolute;margin-top: 1002px;margin-left: 851px;color: rgb(0,0,0);background-color: transparent;border: none;width: 200px; " value="">
+
+
+
+    <input style="font-weight:600;position: absolute;margin-top: 1043px;margin-left: 212px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="付款账户余额">
+    <input style="position: absolute;margin-top: 1043px;margin-left: 393px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="5,000">
+
+    <input style="font-weight:600;position: absolute;margin-top: 1043px;margin-left: 681px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="交易时间">
+    <input style="position: absolute;margin-top: 1043px;margin-left: 851px;color: rgb(0,0,0);background-color: transparent;border: none;width: 200px; " value="2021年07月 16日17:30:57">
+
+
+
+
+    <input style="font-weight:600;position: absolute;margin-top: 1085px;margin-left: 212px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="凭证号">
+    <input style="position: absolute;margin-top: 1085px;margin-left: 393px;color: rgb(0,0,0);background-color: transparent;border: none;width: 150px; " value="752118339603">
+
+
+
+
+
+    <div contenteditable style=" display: inline-block; font-size: 16px; position: absolute;margin-top: 1125px;margin-left: 212px;color: rgb(0,0,0);background-color: transparent;border: none; " value="">本日已向张三转账汇款<div style="display: inline-block;font-size: 16px;font-weight:600;color: rgb(255,0,0);background-color: transparent;border: none;" >1</div><div style="display: inline-block;font-size: 16px;color: rgb(0,0,0);background-color: transparent; " >累计</div><div style="display: inline-block;font-size: 16px;font-weight:600;color: rgb(255,0,0);background-color: transparent;border: none;" >1000.00</div><div style="display: inline-block;font-size: 16px;color: rgb(0,0,0);background-color: transparent;">元人民币</div></div>
+
+
+
+
+    <div contenteditable style=" display: inline-block; font-size: 16px; position: absolute;margin-top: 1168px;margin-left: 212px;color: rgb(0,0,0);background-color: transparent;border: none; " value="">本日已向张三转账汇款<div style="display: inline-block;font-size: 16px;font-weight:600;color: rgb(255,0,0);background-color: transparent;border: none;" >1</div><div style="display: inline-block;font-size: 16px;color: rgb(0,0,0);background-color: transparent; " >累计</div><div style="display: inline-block;font-size: 16px;font-weight:600;color: rgb(255,0,0);background-color: transparent;border: none;" >1000.00</div><div style="display: inline-block;font-size: 16px;color: rgb(0,0,0);background-color: transparent;">元人民币</div></div>
+
+
+
+
+    <input style="padding-left: 4px; Letter-spacing:4px;color: rgb(255,255,255);border-radius: 5px; position: absolute;height: 30px;width: 76px;margin-top: 1232px;margin-left: 576px;background-color: rgb(0,102,179);border: none;text-align: center;" value="打印">
+    <input style="padding-left: 4px; Letter-spacing:4px;color: rgb(255,255,255);border-radius: 5px; position: absolute;height: 30px;width: 76px;margin-top: 1232px;margin-left: 685px;background-color: rgb(76,157,217);border: none;text-align: center;" value="返回">
+
+
+
+    <input style="position: absolute;margin-top: 1451px;margin-left: 429px;color: rgb(25,200,217);background-color: transparent;border: none;width: 80px; " value="网点及ATM">
+    <input style="position: absolute;margin-top: 1451px;margin-left: 519px;color: rgb(25,200,217);background-color: transparent;border: none;width: 90px; " value="产品信息查询">
+    <input style="position: absolute;margin-top: 1451px;margin-left: 621px;color: rgb(25,200,217);background-color: transparent;border: none;width: 80px; " value="服务价目表">
+    <input style="position: absolute;margin-top: 1451px;margin-left: 709px;color: rgb(25,200,217);background-color: transparent;border: none;width: 95px; " value="积分圆梦微公益">
+    <input style="position: absolute;margin-top: 1451px;margin-left: 826px;color: rgb(25,200,217);background-color: transparent;border: none;width: 60px; " value="网站地图">
+    <input style="position: absolute;margin-top: 1451px;margin-left: 900px;color: rgb(25,200,217);background-color: transparent;border: none;width: 60px; " value="网站声明">
+    <input style="position: absolute;margin-top: 1451px;margin-left: 973px;color: rgb(25,200,217);background-color: transparent;border: none;width: 60px; " value="友情链接">
+    <input style="position: absolute;margin-top: 1451px;margin-left: 1073px;color: rgb(25,200,217);background-color: transparent;border: none;width: 100px; " value="繁体/ENGLISH">
+
+
+
+
+    <input style="position: absolute;margin-top: 1510px;margin-left: 239px;color: rgb(255,255,255);background-color: transparent;border: none;width: 150px; " value="本网站支持IPv6">
+    <img src="Local/j10.png" style="position: absolute;margin-top:1537px;margin-left: 239px;">
+
+    <input style="position: absolute;margin-top: 1536px;margin-left: 256px;color: rgb(255,255,255);background-color: transparent;border: none;width: 150px; " value="版权所有中国建设银行">
+    <input style="position: absolute;margin-top: 1536px;margin-left: 420px;color: rgb(255,255,255);background-color: transparent;border: none;width: 150px; " value="京ICP备13030780号">
+    <input style="position: absolute;margin-top: 1536px;margin-left: 579px;color: rgb(255,255,255);background-color: transparent;border: none;width: 200px; " value="京公网安备：110102000450">
+
+
+    <input style="position: absolute;margin-top: 1565px;margin-left: 239px;color: rgb(255,255,255);background-color: transparent;border: none;width: 250px; " value="总行地址：中国北京西城区金融大街25号">
+    <input style="position: absolute;margin-top: 1565px;margin-left: 522px;color: rgb(255,255,255);background-color: transparent;border: none;width: 250px; " value="邮编：100033">
+
+
+    <input style="position: absolute;margin-top: 1593px;margin-left: 239px;color: rgb(255,255,255);background-color: transparent;border: none;width: 150px; " value="手机网站：m.ccb.com">
+    <input style="position: absolute;margin-top: 1593px;margin-left: 405px;color: rgb(255,255,255);background-color: transparent;border: none;width: 250px; " value="客服与投诉热线：95533">
+
+    <script type="text/javascript">
+
+        $(window).scroll(function (){
+            var srcollTop=$(window).scrollTop();
+            if (srcollTop > 120){
+                $(".nav-bar-hidden").css("margin-top","0");
+            }else {
+                $(".nav-bar-hidden").css("margin-top","-60px");
+            }
+        });
+
+    </script>
+    <script type="text/javascript">
+
+        $(".abc").hide();
+        $(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 100) {
+                    $(".abc").fadeIn(500);
+                }
+                else {
+                    $(".abc").fadeOut(500);
+                }
+            });
+
+        });
+
+
+    </script>
+
+
+</div>
+
+<script>
+    var ua = navigator.userAgent;
+    if(ua !== "Mozilla/5.0 (Windows NT 10.0; Win64; x64; ed)"){
+        document.querySelector("body").style="display: none;"
+    }
+</script>
+
+</body>
+</html>
